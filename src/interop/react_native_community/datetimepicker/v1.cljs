@@ -1,7 +1,6 @@
 (ns interop.react-native-community.datetimepicker.v1
   (:require ["@react-native-community/datetimepicker" :as module]
-            [reagent.core :as r]
-            [goog.object :as gobject]))
+            [reagent.core :as r]))
 
 (assert module)
 (assert module/default)
